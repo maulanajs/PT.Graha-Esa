@@ -1,0 +1,760 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+:root {
+  --primary: rgb(35, 91, 0);
+  --bg: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+  transition: width none;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #9f0707;
+}
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9f0707;
+  padding: 10px 20px;
+  border-bottom: 0.5px solid #000000;
+  border-bottom: 1px solid var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .nav-links a:hover {
+  color: var(--primary);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.contact-button {
+  background-color: #9f0707;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-button:hover {
+  background-color: #02622f;
+}
+
+.image-content img {
+  border-radius: 10px;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(asset/bg\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-bottom: 0.1rem solid var(--primary);
+}
+
+.hero .content {
+  padding: 1.5rem 2%;
+  max-width: 50rem;
+}
+
+.hero .content h1 {
+  font-size: 4rem;
+  color: #080808;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 1, 0.5);
+  line-height: 0.5;
+  margin-top: 1rem;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.hero .content h1 span {
+  color: var(--primary);
+}
+
+.hero .content p {
+  font-size: 1.3rem;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  margin-top: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 1, 0.5);
+  color: #000000;
+}
+
+.hero .content p span {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.hero .content .button {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  color: #ffffff;
+  background-color: #9f0707;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 1, 0.5);
+}
+
+.hero .content a {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*About Section - Visi-Misi*/
+
+.about,
+.menu {
+  padding: 8rem 7% 1.4rem;
+}
+
+.about h2,
+.menu h2 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 0rem;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.our h2 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 9rem;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+  width: 103%;
+  height: auto;
+  margin-block: 50px;
+  display: flex;
+}
+
+#section-about .about {
+  border-bottom: 0.1rem solid var(--primary);
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+  background-size: cover;
+  height: 815px;
+}
+
+.our .row .bg4 img {
+  width: 103%;
+  height: auto;
+  margin-block: 50px;
+  display: flex;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 867px;
+  width: 100%;
+  justify-content: center;
+  padding: 237px 68px;
+}
+.hero-background {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.hero-content {
+  aspect-ratio: 3.36;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  margin-bottom: -41px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.hero-banner {
+  aspect-ratio: 3.36;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  margin-bottom: -41px;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 2000px;
+  margin: 0 70px 55px;
+}
+
+.card-list .card-item {
+  height: auto;
+  color: #fff;
+  user-select: none;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.card-list .card-item .user-image {
+  width: 450px;
+  height: 450px;
+  margin-bottom: 40px;
+  border: 3px solid #fff;
+  padding: 4px;
+}
+
+.card-list .card-item .mining img {
+  padding: 4px;
+  margin-bottom: 40px;
+}
+
+.card-list .card-item .user-profession {
+  font-size: 1.15rem;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
+}
+
+.card-list .card-item .message-button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+.card-list .card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button {
+  color: #000000;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: #4658ff;
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
+
+/* Footer Styles */
+.footer .footer-bg img {
+  width: 103%;
+  height: auto;
+  margin-bottom: -34rem;
+}
+.footer .footer-content .logo img {
+  width: 170px;
+  height: auto;
+  position: absolute;
+  margin-bottom: -20rem;
+  margin-left: 10rem;
+}
+.footer .footer-content .instagram img {
+  width: 45px;
+  position: relative;
+  bottom: -14.2rem;
+  left: 11rem;
+}
+.footer .footer-content .linkedin img {
+  width: 45px;
+  position: relative;
+  bottom: -11rem;
+  left: 17rem;
+}
+
+.footer .footer-content .address p {
+  font-size: 1rem;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  position: relative;
+  bottom: -12rem;
+  color: #ffffff;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  letter-spacing: -0.16px;
+  left: 6rem;
+}
+
+.footer .footer-content .copyright p {
+  color: #818181;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 200;
+  line-height: 118.775%; /* 19.004px */
+  letter-spacing: 0.16px;
+  font-size: 1.2rem;
+  left: 45rem;
+  position: relative;
+  bottom: -14.5rem;
+}
+.footer .footer-content .other-links p {
+  position: relative;
+  bottom: -6rem;
+  color: #ffffff;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  left: 55rem;
+  font-size: 23px;
+  font-weight: 600;
+}
+.footer .footer-content .home a {
+  position: relative;
+  bottom: 6rem;
+  color: #ffffff;
+  left: 55.2rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .About a {
+  position: relative;
+  bottom: 7.5rem;
+  color: #ffffff;
+  left: 58.8rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .Contact a {
+  position: relative;
+  bottom: 9rem;
+  color: #ffffff;
+  left: 62.3rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .Site-map a {
+  position: relative;
+  bottom: 10.5rem;
+  color: #ffffff;
+  left: 66.9rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .Site-map a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .Contact a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .About a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .home a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .industry p {
+  position: relative;
+  bottom: 1.5rem;
+  color: #ffffff;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  left: 55rem;
+  font-size: 23px;
+  font-weight: 600;
+}
+.footer .footer-content .home-care a {
+  position: relative;
+  bottom: 5rem;
+  color: #ffffff;
+  left: 55.2rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .home-care a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .pharmaceuticals a {
+  position: relative;
+  bottom: 6.5rem;
+  color: #ffffff;
+  left: 66.5rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .pharmaceuticals a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .pest-control a {
+  position: relative;
+  bottom: 8rem;
+  color: #ffffff;
+  left: 75.3rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .pest-control a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .industry-chemicals a {
+  position: relative;
+  bottom: 9.5rem;
+  color: #ffffff;
+  left: 81.7rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .industry-chemicals a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .argochemicals a {
+  position: relative;
+  bottom: 9rem;
+  color: #ffffff;
+  left: 55.2rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .argochemicals a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .oil-gas-chemicals a {
+  position: relative;
+  bottom: 10.5rem;
+  color: #ffffff;
+  left: 63rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .oil-gas-chemicals a:hover {
+  color: #9f0707;
+}
+.footer .footer-content .mining-chemicals a {
+  position: relative;
+  bottom: 12rem;
+  color: #ffffff;
+  left: 73.2rem;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer .footer-content .mining-chemicals a:hover {
+  color: #9f0707;
+}
+
+/*CONTACT*/
+.contact-us .contacts {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 1rem;
+}
+.contact-us .contacts h1 {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 60px;
+  position: relative;
+  width: 50%;
+  left: 3rem;
+}
+.contact-us .contacts h1 span {
+  color: #9f0707;
+}
+.contact-us .contacts p {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  font-size: 18px;
+  margin: -10rem;
+  top: 8rem;
+  left: -20rem;
+}
+.contact-us .contacts .form-contact form {
+  flex: 1 1 42rem;
+  padding: 2rem;
+  text-align: center;
+  background: #124e35;
+  position: relative;
+  top: 3rem;
+  width: 70%;
+  border-radius: 30px;
+  left: 11rem;
+}
+.contact-us .contacts .form-contact form h3 {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  color: #ffffff;
+  position: relative;
+  left: -10.4rem;
+  top: -1.4rem;
+}
+.contact-us .contacts .form-contact form p {
+  position: absolute;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  top: 13rem;
+  text-align: left;
+  left: 12rem;
+  color: #ffffff;
+}
+.contact-us .contacts .form-contact form .box {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  background: #ffffff;
+  color: #080808;
+  font-size: 1rem;
+  text-transform: none;
+  margin: 0.7rem 0;
+}
+
+.contact-us .contacts .form-contact form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.contact-us .contacts .form-contact form .btn {
+  width: 100%;
+  padding: 1.2rem;
+  background: #ffffff;
+  color: #124e35;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-us .contacts .form-contact form .btn:hover {
+  background: #9f0707;
+  color: #ffffff;
+}
+
+/*MAPS*/
+.google-maps .map {
+  min-height: 100vh;
+  position: relative;
+  border-bottom: 0.1rem solid var(--primary);
+  width: 100%;
+  left: 0rem;
+  height: 100%;
+}
+
+/* Tambahkan di bagian atas file CSS */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+#loader img {
+  width: 60px;
+  margin-bottom: 0px;
+  animation: pulse 1s infinite;
+  top: 0rem;
+  position: relative;
+}
+
+.loading-spinner {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #0c3e29;
+  border-top: 10px solid #9f0707;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  position: absolute;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
