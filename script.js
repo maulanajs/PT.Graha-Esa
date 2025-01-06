@@ -39,4 +39,42 @@ window.addEventListener("DOMContentLoaded", function () {
       },
     },
   });
+
+  // Tambahkan tombol hamburger ke navbar
+  const navbar = document.querySelector('.navbar');
+  const hamburger = document.createElement('div');
+  hamburger.classList.add('hamburger');
+  hamburger.innerHTML = `
+    <span></span>
+    <span></span>
+    <span></span>
+  `;
+  navbar.appendChild(hamburger);
+
+  // Semua fungsionalitas hamburger menu digabung di sini
+  const navLinks = document.querySelector('.nav-links');
+  
+  // Toggle menu saat hamburger diklik
+  hamburger.addEventListener('click', (e) => {
+    e.stopPropagation(); // Mencegah event bubbling
+    navLinks.classList.toggle('active');
+    hamburger.classList.toggle('active');
+  });
+
+  // Tutup menu saat klik di luar
+  document.addEventListener('click', (e) => {
+    if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('active');
+    }
+  });
+
+  // Tutup menu saat nav links diklik
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('active');
+    });
+  });
 });
+

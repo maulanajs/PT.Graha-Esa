@@ -1,0 +1,6114 @@
+@media screen and (max-width: 1920px) {
+  /* Navbar */
+  .navbar {
+    padding: 20px 2%;
+  }
+
+  .nav-links {
+    gap: 100px;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 1440px;
+  }
+
+  .hero .content h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+
+  .hero .content p {
+    font-size: 1.1rem;
+    max-width: 580px;
+  }
+
+  /*About Section - Visi-Misi*/
+
+  .about,
+  .menu {
+    padding: 8rem 7% 1.4rem;
+  }
+
+  .about h2,
+  .menu h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .our h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 9rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .about .row {
+    display: flex;
+    margin-bottom: -45rem;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .about-img .visi img {
+    width: 52%;
+    height: auto;
+    position: relative;
+    left: 3rem;
+    top: 5rem;
+  }
+
+  .about .row .about-img .misi img {
+    width: 45%;
+    height: auto;
+    position: relative;
+    left: 59rem;
+    top: -39.9rem;
+  }
+
+  .about .row .about-img .misi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -54.8rem;
+    left: 60.5rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .misi p {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    width: 31%;
+    text-align: center;
+    top: -54rem;
+    left: 54rem;
+  }
+
+  .about .row .about-img .visi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -13rem;
+    left: 10rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .visi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 30%;
+    text-align: center;
+    top: -12.4rem;
+    left: 2rem;
+  }
+
+  #section-about .about {
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+    background-size: cover;
+    height: 815px;
+  }
+
+  .our .row .bg4 img {
+    width: 103%;
+    height: auto;
+    margin-block: 50px;
+    display: flex;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 75px 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    width: 450px;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 450px;
+    height: 450px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #9f0707;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    width: 72%;
+    left: 3rem;
+    line-height: 70px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 16px;
+    margin: -10rem;
+    top: 7rem;
+    left: -25rem;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -9rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.4rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+  }
+
+  /* Footer Styles */
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -34rem;
+  }
+  .footer .footer-content .logo img {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    margin-bottom: -20rem;
+    margin-left: 10rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 45px;
+    position: relative;
+    bottom: -14.2rem;
+    left: 11rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 45px;
+    position: relative;
+    bottom: -11rem;
+    left: 17rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -12rem;
+    color: #ffffff;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 6rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1.2rem;
+    left: 40rem;
+    position: relative;
+    bottom: -14.5rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    bottom: -6rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 55rem;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    bottom: 6rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    bottom: 7.5rem;
+    color: #ffffff;
+    left: 58.8rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    bottom: 9rem;
+    color: #ffffff;
+    left: 62.3rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    bottom: 10.5rem;
+    color: #ffffff;
+    left: 66.9rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: 1.5rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 55rem;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: 5rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: 6.5rem;
+    color: #ffffff;
+    left: 66.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: 8rem;
+    color: #ffffff;
+    left: 75.3rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    bottom: 9.5rem;
+    color: #ffffff;
+    left: 81.7rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    bottom: 9rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    bottom: 10.5rem;
+    color: #ffffff;
+    left: 63rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 12rem;
+    color: #ffffff;
+    left: 73.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 1706.67px) {
+  /* Navbar */
+  .navbar {
+    padding: 20px 2%;
+  }
+
+  .nav-links {
+    gap: 100px;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 1440px;
+  }
+
+  .hero .content h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+
+  .hero .content p {
+    font-size: 1.1rem;
+    max-width: 580px;
+  }
+
+  /*About Section - Visi-Misi*/
+
+  .about,
+  .menu {
+    padding: 8rem 7% 1.4rem;
+  }
+
+  .about h2,
+  .menu h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .our h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 9rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .about .row {
+    display: flex;
+    margin-bottom: -45rem;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .about-img .visi img {
+    width: 52%;
+    height: auto;
+    position: relative;
+    left: 3rem;
+    top: 5rem;
+  }
+
+  .about .row .about-img .misi img {
+    width: 45%;
+    height: auto;
+    position: relative;
+    left: 59rem;
+    top: -39.9rem;
+  }
+
+  .about .row .about-img .misi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -54.8rem;
+    left: 60.5rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .misi p {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    width: 31%;
+    text-align: center;
+    top: -54rem;
+    left: 54rem;
+  }
+
+  .about .row .about-img .visi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -13rem;
+    left: 10rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .visi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 30%;
+    text-align: center;
+    top: -12.4rem;
+    left: 2rem;
+  }
+
+  #section-about .about {
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+    background-size: cover;
+    height: 815px;
+  }
+
+  .our .row .bg4 img {
+    width: 103%;
+    height: auto;
+    margin-block: 50px;
+    display: flex;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 75px 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    width: 450px;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 450px;
+    height: 450px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #9f0707;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    width: 72%;
+    left: 3rem;
+    line-height: 70px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 16px;
+    margin: -10rem;
+    top: 7rem;
+    left: -25rem;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -9rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.4rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+  }
+
+  /* Footer Styles */
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -34rem;
+  }
+  .footer .footer-content .logo img {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    margin-bottom: -20rem;
+    margin-left: 10rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 45px;
+    position: relative;
+    bottom: -14.2rem;
+    left: 11rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 45px;
+    position: relative;
+    bottom: -11rem;
+    left: 17rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -12rem;
+    color: #ffffff;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 6rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1.2rem;
+    left: 40rem;
+    position: relative;
+    bottom: -14.5rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    bottom: -6rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 55rem;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    bottom: 6rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    bottom: 7.5rem;
+    color: #ffffff;
+    left: 58.8rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    bottom: 9rem;
+    color: #ffffff;
+    left: 62.3rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    bottom: 10.5rem;
+    color: #ffffff;
+    left: 66.9rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: 1.5rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 55rem;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: 5rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: 6.5rem;
+    color: #ffffff;
+    left: 66.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: 8rem;
+    color: #ffffff;
+    left: 75.3rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    bottom: 9.5rem;
+    color: #ffffff;
+    left: 81.7rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    bottom: 9rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    bottom: 10.5rem;
+    color: #ffffff;
+    left: 63rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 12rem;
+    color: #ffffff;
+    left: 73.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  /* Navbar */
+  .navbar {
+    padding: 20px 2%;
+  }
+
+  .nav-links {
+    gap: 100px;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 1440px;
+  }
+
+  .hero .content h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+
+  .hero .content p {
+    font-size: 1.1rem;
+    max-width: 580px;
+  }
+
+  /*About Section - Visi-Misi*/
+
+  .about,
+  .menu {
+    padding: 8rem 7% 1.4rem;
+  }
+
+  .about h2,
+  .menu h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .our h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 9rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .about .row {
+    display: flex;
+    margin-bottom: -45rem;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .about-img .visi img {
+    width: 52%;
+    height: auto;
+    position: relative;
+    left: 3rem;
+    top: 5rem;
+  }
+
+  .about .row .about-img .misi img {
+    width: 45%;
+    height: auto;
+    position: relative;
+    left: 59rem;
+    top: -39.9rem;
+  }
+
+  .about .row .about-img .misi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -54.8rem;
+    left: 60.5rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .misi p {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    width: 31%;
+    text-align: center;
+    top: -54rem;
+    left: 54rem;
+  }
+
+  .about .row .about-img .visi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -13rem;
+    left: 10rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .visi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 30%;
+    text-align: center;
+    top: -12.4rem;
+    left: 2rem;
+  }
+
+  #section-about .about {
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+    background-size: cover;
+    height: 815px;
+  }
+
+  .our .row .bg4 img {
+    width: 103%;
+    height: auto;
+    margin-block: 50px;
+    display: flex;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 75px 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    width: 400px;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #9f0707;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    width: 72%;
+    left: 3rem;
+    line-height: 70px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 16px;
+    margin: -10rem;
+    top: 7rem;
+    left: -25rem;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -9rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.4rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+  }
+
+  /* Footer Styles */
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -34rem;
+  }
+  .footer .footer-content .logo img {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    margin-bottom: -20rem;
+    margin-left: 10rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 45px;
+    position: relative;
+    bottom: -14.2rem;
+    left: 11rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 45px;
+    position: relative;
+    bottom: -11rem;
+    left: 17rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -12rem;
+    color: #ffffff;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 6rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1.2rem;
+    left: 40rem;
+    position: relative;
+    bottom: -14.5rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    bottom: -6rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 55rem;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    bottom: 6rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    bottom: 7.5rem;
+    color: #ffffff;
+    left: 58.8rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    bottom: 9rem;
+    color: #ffffff;
+    left: 62.3rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    bottom: 10.5rem;
+    color: #ffffff;
+    left: 66.9rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: 1.5rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 55rem;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: 5rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: 6.5rem;
+    color: #ffffff;
+    left: 66.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: 8rem;
+    color: #ffffff;
+    left: 75.3rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    bottom: 9.5rem;
+    color: #ffffff;
+    left: 81.7rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    bottom: 9rem;
+    color: #ffffff;
+    left: 55.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    bottom: 10.5rem;
+    color: #ffffff;
+    left: 63rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 12rem;
+    color: #ffffff;
+    left: 73.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  * Navbar */ .navbar {
+    padding: 20px 2%;
+  }
+
+  .nav-links {
+    gap: 100px;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 1440px;
+  }
+
+  .hero .content h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+
+  .hero .content p {
+    font-size: 1.1rem;
+    max-width: 580px;
+  }
+
+  /*About Section - Visi-Misi*/
+
+  .about,
+  .menu {
+    padding: 8rem 7% 1.4rem;
+  }
+
+  .about h2,
+  .menu h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .our h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 9rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .about .row {
+    display: flex;
+    margin-bottom: -45rem;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .about-img .visi img {
+    width: 52%;
+    height: auto;
+    position: relative;
+    left: 3rem;
+    top: 5rem;
+  }
+
+  .about .row .about-img .misi img {
+    width: 45%;
+    height: auto;
+    position: relative;
+    left: 57rem;
+    top: -37.4rem;
+  }
+
+  .about .row .about-img .misi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -52.5rem;
+    left: 58rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .misi p {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    width: 31%;
+    text-align: center;
+    top: -51.9rem;
+    left: 52rem;
+  }
+
+  .about .row .about-img .visi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -13rem;
+    left: 9rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .visi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 30%;
+    text-align: center;
+    top: -12.4rem;
+    left: 2rem;
+  }
+
+  #section-about .about {
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+    background-size: cover;
+    height: 815px;
+  }
+
+  .our .row .bg4 img {
+    width: 103%;
+    height: auto;
+    margin-block: 50px;
+    display: flex;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 75px 60px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .card-list .card-item {
+    width: 400px;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #9f0707;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -1rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    width: 72%;
+    left: 4.1rem;
+    line-height: 70px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 16px;
+    margin: -10rem;
+    top: 7rem;
+    left: -19.9rem;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -8.5rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.4rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+  }
+
+  /* Footer Styles */
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -34rem;
+  }
+  .footer .footer-content .logo img {
+    width: 170px;
+    height: auto;
+    position: relative;
+    left: -4rem;
+    top: 1rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 45px;
+    position: relative;
+    bottom: -16rem;
+    left: 7rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 45px;
+    position: relative;
+    bottom: -12.8rem;
+    left: 14.5rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -15rem;
+    color: #ffffff;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 3rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1.2rem;
+    left: 35.5rem;
+    position: relative;
+    bottom: -14.6rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    bottom: -8.7rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 50rem;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    bottom: 3rem;
+    color: #ffffff;
+    left: 50rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    bottom: 4.5rem;
+    color: #ffffff;
+    left: 54rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    bottom: 6rem;
+    color: #ffffff;
+    left: 58rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    bottom: 7.5rem;
+    color: #ffffff;
+    left: 62.9rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: 2rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 50rem;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: 5rem;
+    color: #ffffff;
+    left: 50rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: 6.5rem;
+    color: #ffffff;
+    left: 61.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: 8rem;
+    color: #ffffff;
+    left: 70.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    bottom: 7.5rem;
+    color: #ffffff;
+    left: 50rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    bottom: 9rem;
+    color: #ffffff;
+    left: 59.9rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    bottom: 10.5rem;
+    color: #ffffff;
+    left: 67.8rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 10rem;
+    color: #ffffff;
+    left: 50rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  /* Navbar */
+  .navbar {
+    padding: 15px 2%;
+  }
+
+  .nav-links {
+    gap: 50px;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 800px;
+  }
+
+  .hero .content h1 {
+    font-size: 3rem;
+    line-height: 1rem;
+  }
+
+  .hero .content p {
+    font-size: 1rem;
+    max-width: 550px;
+  }
+
+  /*About Section - Visi-Misi*/
+
+  .about,
+  .menu {
+    padding: 5rem 10%;
+  }
+
+  .about h2,
+  .menu h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    top: -1rem;
+  }
+
+  .our h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .about .row {
+    display: flex;
+    margin-bottom: -45rem;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .about-img .visi img {
+    width: 60%;
+    height: auto;
+    position: relative;
+    left: -3rem;
+    top: 2rem;
+  }
+
+  .about .row .about-img .misi img {
+    width: 53%;
+    height: auto;
+    position: relative;
+    left: 52rem;
+    top: -41.9rem;
+  }
+
+  .about .row .about-img .misi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -57.5rem;
+    left: 54rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .misi p {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    width: 30%;
+    text-align: center;
+    top: -56.5rem;
+    left: 49.4rem;
+  }
+
+  .about .row .about-img .visi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -16rem;
+    left: 3.6rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .visi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 30%;
+    text-align: center;
+    top: -15rem;
+    left: -2rem;
+  }
+
+  #section-about .about {
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+    background-size: cover;
+    height: 815px;
+  }
+
+  .our .row .bg4 img {
+    width: 103%;
+    height: auto;
+    margin-block: 50px;
+    display: flex;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1400px;
+    margin: 0 45px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    width: 380px;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 380px;
+    height: 380px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #9f0707;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -1.5rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 55px;
+    position: relative;
+    width: 79%;
+    left: 3rem;
+    line-height: 55px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 15px;
+    margin: -10rem;
+    top: 6rem;
+    left: -18rem;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -6.2rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 0.3rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.7rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /*footer*/
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -33rem;
+    position: relative;
+  }
+  .footer .footer-content .logo img {
+    width: 11%;
+    height: auto;
+    position: relative;
+    top: 1rem;
+    left: -2rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 3%;
+    position: relative;
+    bottom: -14.8rem;
+    left: 8rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 3%;
+    position: relative;
+    bottom: -12rem;
+    left: 14rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 0.8rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -14rem;
+    color: #ffffff;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 3.5rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1rem;
+    left: 36rem;
+    position: relative;
+    top: 17.7rem;
+    bottom: -20.8rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    top: 7rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 45rem;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    top: -4.5rem;
+    color: #ffffff;
+    left: 45rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    top: -6rem;
+    color: #ffffff;
+    left: 48.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    top: -7.5rem;
+    color: #ffffff;
+    left: 52rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    top: -9rem;
+    color: #ffffff;
+    left: 56.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: 0rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 45rem;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: 2.5rem;
+    color: #ffffff;
+    left: 45rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: 4rem;
+    color: #ffffff;
+    left: 55rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: 5.5rem;
+    color: #ffffff;
+    left: 62.7rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    top: -7rem;
+    color: #ffffff;
+    left: 68.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    top: -7rem;
+    color: #ffffff;
+    left: 45rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    top: -8.5rem;
+    color: #ffffff;
+    left: 52rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 10rem;
+    color: #ffffff;
+    left: 61.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Navbar */
+  .navbar {
+    padding: 15px 2%;
+  }
+
+  .nav-links {
+    gap: 80px;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 800px;
+  }
+
+  .hero .content h1 {
+    font-size: 3rem;
+    line-height: 1rem;
+  }
+
+  .hero .content p {
+    font-size: 1rem;
+    max-width: 550px;
+  }
+
+  /*About Section - Visi-Misi*/
+
+  .about,
+  .menu {
+    padding: 5rem 10%;
+  }
+
+  .about h2,
+  .menu h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    top: -1rem;
+  }
+
+  .our h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 5rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .about .row {
+    display: flex;
+    margin-bottom: -45rem;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .about-img .visi img {
+    width: 65%;
+    height: auto;
+    position: relative;
+    left: -2rem;
+    top: 2rem;
+  }
+
+  .about .row .about-img .misi img {
+    width: 57%;
+    height: auto;
+    position: relative;
+    left: 43rem;
+    top: -39rem;
+  }
+
+  .about .row .about-img .misi h1 {
+    font-size: 46px;
+    position: relative;
+    top: -53.5rem;
+    left: 45rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .misi p {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    width: 35%;
+    text-align: center;
+    top: -53.5rem;
+    left: 40rem;
+  }
+
+  .about .row .about-img .visi h1 {
+    font-size: 46px;
+    position: relative;
+    top: -15rem;
+    left: 4.5rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .visi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 35%;
+    text-align: center;
+    top: -15rem;
+    left: -1rem;
+  }
+
+  #section-about .about {
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+    background-size: cover;
+    height: 815px;
+  }
+
+  .our .row .bg4 img {
+    width: 103%;
+    height: auto;
+    margin-block: 50px;
+    display: flex;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 45px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    width: 350px;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #9f0707;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -1.5rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 55px;
+    position: relative;
+    width: 79%;
+    left: 3rem;
+    line-height: 55px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 15px;
+    margin: -10rem;
+    top: 6rem;
+    left: -13rem;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -6.2rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 0.3rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.7rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+    margin-bottom: -3rem;
+  }
+
+  /*footer*/
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -33rem;
+    position: relative;
+  }
+  .footer .footer-content .logo img {
+    width: 11%;
+    height: auto;
+    position: relative;
+    top: 4rem;
+    left: -2rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 3%;
+    position: relative;
+    bottom: -17rem;
+    left: 8rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 3%;
+    position: relative;
+    bottom: -14.5rem;
+    left: 14rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 0.8rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -16rem;
+    color: #ffffff;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 4.5rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1rem;
+    left: 30rem;
+    position: relative;
+    top: 17.3rem;
+    bottom: -20.8rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    top: 11.5rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 40rem;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    top: 0rem;
+    color: #ffffff;
+    left: 40rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    top: -1.5rem;
+    color: #ffffff;
+    left: 43.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    top: -3rem;
+    color: #ffffff;
+    left: 47rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    top: -4.5rem;
+    color: #ffffff;
+    left: 51.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: -4rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 40rem;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: -1.5rem;
+    color: #ffffff;
+    left: 40rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: 0rem;
+    color: #ffffff;
+    left: 50.1rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: 1.5rem;
+    color: #ffffff;
+    left: 58rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    top: -3rem;
+    color: #ffffff;
+    left: 64rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    top: -3rem;
+    color: #ffffff;
+    left: 40rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    top: -4.5rem;
+    color: #ffffff;
+    left: 47.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 6rem;
+    color: #ffffff;
+    left: 56.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  /* Navbar */
+  .navbar {
+    padding: 15px 2%;
+  }
+
+  .nav-links {
+    gap: 50px;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 800px;
+  }
+
+  .hero .content h1 {
+    font-size: 3rem;
+    line-height: 1rem;
+  }
+
+  .hero .content p {
+    font-size: 1rem;
+    max-width: 520px;
+  }
+
+  /*About Section - Visi-Misi*/
+
+  .about,
+  .menu {
+    padding: 5rem 10%;
+  }
+
+  .about h2,
+  .menu h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    top: -1rem;
+  }
+
+  .our h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .about .row {
+    display: flex;
+    margin-bottom: -45rem;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .about-img .visi img {
+    width: 65%;
+    height: auto;
+    position: relative;
+    left: -3rem;
+    top: 2rem;
+  }
+
+  .about .row .about-img .misi img {
+    width: 55%;
+    height: auto;
+    position: relative;
+    left: 40rem;
+    top: -36.1rem;
+  }
+
+  .about .row .about-img .misi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -47.8rem;
+    left: 40rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .misi p {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    width: 45%;
+    text-align: center;
+    top: -46.8rem;
+    left: 33.5rem;
+  }
+
+  .about .row .about-img .visi h1 {
+    font-size: 50px;
+    position: relative;
+    top: -13rem;
+    left: 2rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .visi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 40%;
+    text-align: center;
+    top: -12rem;
+    left: -4.1rem;
+  }
+
+  #section-about .about {
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+    background-size: cover;
+    height: 815px;
+  }
+
+  .our .row .bg4 img {
+    width: 103%;
+    height: auto;
+    margin-block: 50px;
+    display: flex;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1080px;
+    margin: 0 45px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    width: 335px;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 335px;
+    height: 335px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #9f0707;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -1.5rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    position: relative;
+    width: 79%;
+    left: 3rem;
+    line-height: 55px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 15px;
+    margin: -10rem;
+    top: 6rem;
+    left: -10rem;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -6rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 0.5rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.7rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+    margin-bottom: -7rem;
+  }
+
+  /*footer*/
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -33rem;
+    position: relative;
+  }
+  .footer .footer-content .logo img {
+    width: 11%;
+    height: auto;
+    position: relative;
+    top: 6rem;
+    left: -2rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 3%;
+    position: relative;
+    bottom: -19rem;
+    left: 8rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 3%;
+    position: relative;
+    bottom: -16.8rem;
+    left: 14rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 0.8rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -18rem;
+    color: #ffffff;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 5rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 0.8rem;
+    left: 28rem;
+    position: relative;
+    top: 18rem;
+    bottom: -20.8rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    top: 12rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 35rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    top: 0.8rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    top: -0.6rem;
+    color: #ffffff;
+    left: 38rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    top: -2rem;
+    color: #ffffff;
+    left: 41rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    top: -3.5rem;
+    color: #ffffff;
+    left: 44.7rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: -6rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 35rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: -3.7rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: -2.2rem;
+    color: #ffffff;
+    left: 44rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: -0.7rem;
+    color: #ffffff;
+    left: 51rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    top: 1rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    top: -0.5rem;
+    color: #ffffff;
+    left: 42.8rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    top: -3.8rem;
+    color: #ffffff;
+    left: 56.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 3.5rem;
+    color: #ffffff;
+    left: 49.1rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* Navbar */
+  .navbar {
+    padding: 15px 2%;
+  }
+
+  .nav-links {
+    gap: 50px;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 800px;
+  }
+
+  .hero .content h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .hero .content p {
+    font-size: 1rem;
+    max-width: 520px;
+  }
+
+  /* About Section */
+  .about,
+  .menu {
+    padding: 8rem 10%;
+  }
+
+  .about .row {
+    gap: 50px;
+  }
+
+  .about .row .about-img img {
+    height: 550px;
+    width: auto;
+    position: relative;
+    left: -3rem;
+    top: 1rem;
+    margin: -5rem;
+  }
+
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .our h2 {
+    font-size: 3rem;
+    position: relative;
+    top: 5rem;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1024px;
+    margin: 0 70px 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    height: auto;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #4658ff;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -1rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 46px;
+    position: relative;
+    width: 74%;
+    left: 3rem;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 15px;
+    margin: -10rem;
+    top: 7rem;
+    left: -7.5rem;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -6rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.7rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+    margin-bottom: -10rem;
+  }
+
+  /*footer*/
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -34rem;
+  }
+  .footer .footer-content .logo img {
+    width: 11%;
+    height: auto;
+    position: relative;
+    top: 8rem;
+    margin-left: 10rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 3%;
+    position: relative;
+    bottom: -21rem;
+    left: 8rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 3%;
+    position: relative;
+    bottom: -18.8rem;
+    left: 14rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 0.8rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -20rem;
+    color: #ffffff;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 2rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1rem;
+    left: 26rem;
+    position: relative;
+    bottom: -20.8rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    bottom: -15.8rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 35rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    top: 4rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    top: 2.5rem;
+    color: #ffffff;
+    left: 38rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    top: 1rem;
+    color: #ffffff;
+    left: 41rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    top: -0.5rem;
+    color: #ffffff;
+    left: 44.7rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: -10rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 35rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: -7.3rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: -5.8rem;
+    color: #ffffff;
+    left: 44rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: -4.4rem;
+    color: #ffffff;
+    left: 51rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    bottom: -4rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    bottom: -2.5rem;
+    color: #ffffff;
+    left: 42.8rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    bottom: -1rem;
+    color: #ffffff;
+    left: 49.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: -0.7rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Navbar */
+  .navbar {
+    padding: 15px 2%;
+  }
+
+  .nav-links {
+    gap: 80px;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 10%;
+    max-width: 992px;
+  }
+
+  .hero .content h1 {
+    font-size: 2.8rem;
+    line-height: 1rem;
+  }
+
+  .hero .content p {
+    font-size: 0.9rem;
+    max-width: 471px;
+  }
+
+  .hero .content .button {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    background-color: #9f0707;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1, 1, 3, 1, 0.5);
+    height: 60px;
+  }
+
+  /*About Section - Visi-Misi*/
+
+  .about,
+  .menu {
+    padding: 5rem 10%;
+  }
+
+  .about h2,
+  .menu h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    top: -1rem;
+  }
+
+  .our h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    top: 2rem;
+  }
+
+  .about .row {
+    display: flex;
+    margin-bottom: -25rem;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .about-img .visi img {
+    width: 60%;
+    height: auto;
+    position: relative;
+    left: 5rem;
+    top: 5rem;
+  }
+
+  .about .row .about-img .misi img {
+    width: 55%;
+    height: auto;
+    position: relative;
+    left: 40rem;
+    top: -18.9rem;
+  }
+
+  .about .row .about-img .misi h1 {
+    font-size: 40px;
+    position: relative;
+    top: -25rem;
+    left: 36rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .misi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 39%;
+    text-align: center;
+    top: -24.1rem;
+    left: 31rem;
+  }
+
+  .about .row .about-img .visi h1 {
+    font-size: 40px;
+    position: relative;
+    top: -2rem;
+    left: 4.5rem;
+    font-weight: 800;
+  }
+
+  .about .row .about-img .visi p {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    width: 35%;
+    text-align: center;
+    top: -1rem;
+    left: -0.5rem;
+  }
+
+  #section-about .about {
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://dashboard.codeparrot.ai/api/assets/Z1F67EmqC8VE7xpZ");
+    background-size: cover;
+    height: 815px;
+  }
+
+  .our .row .bg4 img {
+    width: 103%;
+    height: auto;
+    margin-block: 50px;
+    display: flex;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 992px;
+    margin: 0 45px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    width: 400px;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #9f0707;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -2rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+    position: relative;
+    width: 75%;
+    left: 3rem;
+    line-height: 55px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 14px;
+    margin: -10rem;
+    top: 6rem;
+    left: -7rem;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -5.7rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 0.5rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.7rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+    margin-bottom: -9rem;
+  }
+
+  /*footer*/
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -33rem;
+    position: relative;
+  }
+  .footer .footer-content .logo img {
+    width: 12%;
+    height: auto;
+    position: relative;
+    top: 6rem;
+    left: -3rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 3.5%;
+    position: relative;
+    bottom: -19rem;
+    left: 7rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 3.5%;
+    position: relative;
+    bottom: -16.6rem;
+    left: 13rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 0.8rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -18rem;
+    color: #ffffff;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 5rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 0.9rem;
+    left: 25rem;
+    position: relative;
+    top: 16.5rem;
+    bottom: -20.8rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    top: 12rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 30rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    top: 0.8rem;
+    color: #ffffff;
+    left: 30rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    top: -0.6rem;
+    color: #ffffff;
+    left: 33rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    top: -2rem;
+    color: #ffffff;
+    left: 36rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    top: -3.5rem;
+    color: #ffffff;
+    left: 40rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: -6rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 30rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: -3.7rem;
+    color: #ffffff;
+    left: 30rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: -2.2rem;
+    color: #ffffff;
+    left: 39.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: -0.7rem;
+    color: #ffffff;
+    left: 46.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    top: -0.8rem;
+    color: #ffffff;
+    left: 51.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    top: -0.5rem;
+    color: #ffffff;
+    left: 30rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    top: -1.9rem;
+    color: #ffffff;
+    left: 36.3rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 3.4rem;
+    color: #ffffff;
+    left: 44.6rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*Navbar-hamburger*/
+  .hamburger {
+    display: block;
+    z-index: 999;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #9f0707;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    transition: 0.3s ease;
+    z-index: 998;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  /* Hero Section */
+  .hero .content {
+    padding: 5 2%;
+    max-width: 768px;
+  }
+
+  .hero .content h1 {
+    font-size: 3rem;
+    line-height: 0.5;
+  }
+
+  .hero .content p {
+    font-size: 1rem;
+    max-width: 400px;
+  }
+
+  /* About Section */
+  .about,
+  .menu {
+    padding: 8rem 1%;
+  }
+
+  .about .row {
+    gap: 30px;
+  }
+
+  .about .row .about-img img {
+    height: 470px;
+    width: auto;
+    position: relative;
+    left: -0.6rem;
+    top: 1rem;
+    margin: -5rem;
+  }
+
+  .about h2 {
+    font-size: 2.6rem;
+  }
+
+  .our h2 {
+    font-size: 3rem;
+    position: relative;
+    top: 5rem;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1024px;
+    margin: 0 70px 55px;
+    margin-top: 0;
+    margin-bottom: -10px;
+  }
+
+  .card-list .card-item {
+    height: auto;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #4658ff;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -2.5rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    width: 100%;
+    left: 3rem;
+    line-height: 40px;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 13px;
+    margin: -10rem;
+    top: 5rem;
+    left: -5rem;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -5.5rem;
+    top: -1rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9.2px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 90%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.7rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+    margin-bottom: -10rem;
+  }
+
+  /*footer*/
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -20rem;
+  }
+  .footer .footer-content .logo img {
+    width: 15%;
+    height: auto;
+    position: relative;
+    top: -2rem;
+    left: -6rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 4%;
+    position: relative;
+    bottom: -10rem;
+    left: 4rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 4%;
+    position: relative;
+    bottom: -7.9rem;
+    left: 9rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 0.6rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -8rem;
+    color: #ffffff;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 1rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1rem;
+    left: 16rem;
+    position: relative;
+    bottom: -13rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    bottom: -5rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 25rem;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    top: -6.5rem;
+    color: #ffffff;
+    left: 25rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    top: -8rem;
+    color: #ffffff;
+    left: 27.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    top: -9.5rem;
+    color: #ffffff;
+    left: 30rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    top: -11rem;
+    color: #ffffff;
+    left: 33.5rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: 0.1rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 25rem;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: 2.5rem;
+    color: #ffffff;
+    left: 25rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: 4rem;
+    color: #ffffff;
+    left: 33rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: 5.5rem;
+    color: #ffffff;
+    left: 39.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    bottom: 5.5rem;
+    color: #ffffff;
+    left: 25rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    bottom: 7rem;
+    color: #ffffff;
+    left: 32rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    bottom: 8.4rem;
+    color: #ffffff;
+    left: 37.6rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: 8.5rem;
+    color: #ffffff;
+    left: 25rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /*Navbar-hamburger*/
+  .hamburger {
+    display: block;
+    z-index: 999;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #9f0707;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    transition: 0.3s ease;
+    z-index: 998;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /*Navbar-hamburger*/
+  .hamburger {
+    display: block;
+    z-index: 999;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #9f0707;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    transition: 0.3s ease;
+    z-index: 998;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  /* Hero Section */
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(asset/bg\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+  }
+
+  .hero .content {
+    padding: 5 20%;
+    max-width: 720px;
+    text-align: center;
+  }
+
+  .hero .content h1 {
+    font-size: 3rem;
+    line-height: 2rem;
+    text-align: center;
+    left: 5.5rem;
+    position: relative;
+  }
+
+  .hero .content p {
+    font-size: 1rem;
+    max-width: 520px;
+    position: relative;
+    left: 5rem;
+  }
+
+  .hero .content .button {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    background-color: #9f0707;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1, 1, 3, 1, 0.5);
+    height: 60px;
+    position: relative;
+    left: 5rem;
+  }
+
+  .hero .content .button p {
+    color: #ffffff;
+    position: relative;
+    top: -2.5rem;
+    left: 0.5rem;
+  }
+
+  /* About Section */
+  .about,
+  .menu {
+    padding: 8rem 10%;
+  }
+
+  .about .row {
+    gap: 50px;
+  }
+
+  .about .row .about-img img {
+    height: 550px;
+    width: auto;
+    position: relative;
+    left: -3rem;
+    top: 1rem;
+    margin: -5rem;
+  }
+
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .our h2 {
+    font-size: 3rem;
+    position: relative;
+    top: 5rem;
+  }
+
+  /*our insdustry*/
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1024px;
+    margin: 0 70px 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-list .card-item {
+    height: auto;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .card-list .card-item .user-image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+  }
+
+  .card-list .card-item .mining img {
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+
+  .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+  }
+
+  .card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #9f0707;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    color: #000000;
+    margin-top: -55px;
+    transition: 0.2s ease;
+  }
+
+  .slider-wrapper .swiper-slide-button:hover {
+    color: #4658ff;
+  }
+
+  /*CONTACT*/
+  .contact-us .contacts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -1rem;
+  }
+  .contact-us .contacts h1 {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 46px;
+    position: relative;
+    width: 74%;
+    left: 3rem;
+  }
+  .contact-us .contacts h1 span {
+    color: #9f0707;
+  }
+  .contact-us .contacts p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 15px;
+    margin: -10rem;
+    top: 7rem;
+    left: -7.5rem;
+  }
+  .contact-us .contacts .form-contact form {
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #124e35;
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    border-radius: 30px;
+    left: 11rem;
+  }
+  .contact-us .contacts .form-contact form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    left: -6rem;
+    top: -1.4rem;
+  }
+  .contact-us .contacts .form-contact form p {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    top: 13rem;
+    text-align: left;
+    left: 12rem;
+    color: #ffffff;
+    width: 100%;
+  }
+  .contact-us .contacts .form-contact form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: #ffffff;
+    color: #080808;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0.7rem 0;
+  }
+
+  .contact-us .contacts .form-contact form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .contact-us .contacts .form-contact form .btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: #ffffff;
+    color: #124e35;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-us .contacts .form-contact form .btn:hover {
+    background: #9f0707;
+    color: #ffffff;
+  }
+
+  /*MAPS*/
+  .google-maps .map {
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
+    left: 0rem;
+    height: 100%;
+    margin-bottom: -10rem;
+  }
+
+  /*footer*/
+  .footer .footer-bg img {
+    width: 103%;
+    height: auto;
+    margin-bottom: -34rem;
+  }
+  .footer .footer-content .logo img {
+    width: 11%;
+    height: auto;
+    position: relative;
+    top: 8rem;
+    margin-left: 10rem;
+  }
+  .footer .footer-content .instagram img {
+    width: 3%;
+    position: relative;
+    bottom: -21rem;
+    left: 8rem;
+  }
+  .footer .footer-content .linkedin img {
+    width: 3%;
+    position: relative;
+    bottom: -18.8rem;
+    left: 14rem;
+  }
+
+  .footer .footer-content .address p {
+    font-size: 0.8rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    bottom: -20rem;
+    color: #ffffff;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.16px;
+    left: 2rem;
+  }
+
+  .footer .footer-content .copyright p {
+    color: #000000;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.775%; /* 19.004px */
+    letter-spacing: 0.16px;
+    font-size: 1rem;
+    left: 26rem;
+    position: relative;
+    bottom: -20.8rem;
+  }
+  .footer .footer-content .other-links p {
+    position: relative;
+    bottom: -15.8rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 35rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home a {
+    position: relative;
+    top: 4rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .About a {
+    position: relative;
+    top: 2.5rem;
+    color: #ffffff;
+    left: 38rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Contact a {
+    position: relative;
+    top: 1rem;
+    color: #ffffff;
+    left: 41rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Site-map a {
+    position: relative;
+    top: -0.5rem;
+    color: #ffffff;
+    left: 44.7rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .Site-map a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .Contact a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .About a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .home a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry p {
+    position: relative;
+    bottom: -10rem;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    left: 35rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer .footer-content .home-care a {
+    position: relative;
+    bottom: -7.3rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .home-care a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pharmaceuticals a {
+    position: relative;
+    bottom: -5.8rem;
+    color: #ffffff;
+    left: 44rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .pharmaceuticals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .pest-control a {
+    position: relative;
+    bottom: -4.4rem;
+    color: #ffffff;
+    left: 51rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .pest-control a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .industry-chemicals a {
+    position: relative;
+    bottom: -4rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .industry-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .argochemicals a {
+    position: relative;
+    bottom: -2.5rem;
+    color: #ffffff;
+    left: 42.8rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .argochemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .oil-gas-chemicals a {
+    position: relative;
+    bottom: -1rem;
+    color: #ffffff;
+    left: 49.2rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .oil-gas-chemicals a:hover {
+    color: #9f0707;
+  }
+  .footer .footer-content .mining-chemicals a {
+    position: relative;
+    bottom: -0.7rem;
+    color: #ffffff;
+    left: 35rem;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .footer .footer-content .mining-chemicals a:hover {
+    color: #9f0707;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /*Navbar-hamburger*/
+  .hamburger {
+    display: block;
+    z-index: 999;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #9f0707;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    transition: 0.3s ease;
+    z-index: 998;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /*Navbar-hamburger*/
+  .hamburger {
+    display: block;
+    z-index: 999;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #9f0707;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    transition: 0.3s ease;
+    z-index: 998;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*Navbar-hamburger*/
+  .hamburger {
+    display: block;
+    z-index: 999;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #9f0707;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    transition: 0.3s ease;
+    z-index: 998;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+}
